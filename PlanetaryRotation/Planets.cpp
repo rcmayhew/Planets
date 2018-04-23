@@ -2,8 +2,10 @@
 #include "Planets.h"
 
 
-Planets::Planets()
+Planets::Planets(double size, double t)
 {
+	t_coefficient = t;
+	size_coefficient = size;
 }
 
 

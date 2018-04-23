@@ -1,13 +1,28 @@
 #pragma once
 #include <utility>
+#include <string>
+#include <cmath>
+
+typedef std::pair<double, double> Group;
 
 class Planets
 {
 protected:
-	std::pair <double, double> location;
+	//the location of the planet
+	Group location;
+	//the ratio of time to speed
+	double t_coefficient;
+	//the size of the rotation
+	double size_coefficient;
 public:
+	//plug in the time input and changes the location preportional to the rotation
 	virtual void rotate(double) = 0;
-	Planets();
+	//constructo, is called by the other inherited classes
+	Planets(double, double);
+	//print the location
+	std::string print();
+	//give the location
+	Group locate_planet();
 	virtual ~Planets();
 };
 
