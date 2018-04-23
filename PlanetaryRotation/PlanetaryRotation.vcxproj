@@ -149,6 +149,7 @@
   <ItemGroup>
     <ClInclude Include="Circle.h" />
     <ClInclude Include="Ellipse.h" />
+    <ClInclude Include="Lemniscate.h" />
     <ClInclude Include="Planets.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
@@ -156,6 +157,7 @@
   <ItemGroup>
     <ClCompile Include="Circle.cpp" />
     <ClCompile Include="Ellipse.cpp" />
+    <ClCompile Include="Lemniscate.cpp" />
     <ClCompile Include="PlanetaryRotation.cpp" />
     <ClCompile Include="Planets.cpp" />
     <ClCompile Include="stdafx.cpp">
