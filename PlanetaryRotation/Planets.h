@@ -8,6 +8,8 @@ typedef std::pair<double, double> Group;
 class Planets
 {
 protected:
+	//name of the planet
+	std::string name;
 	//the location of the planet
 	Group location;
 	//the ratio of time to speed
