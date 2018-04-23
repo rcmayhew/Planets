@@ -12,7 +12,7 @@ Ellipse::Ellipse(double size, double t, double o) : Planets(size, t)
 void Ellipse::rotate(double time)
 {	//x = a * cos(t)
 	//y = b * sin(t)
-	//when t = time
+	//when t = time, b = size_coefficient, and a = osize_coefficient
 	location = std::make_pair<double, double>
 		(osize_coefficient * cos(time),
 		size_coefficient * sin(time));

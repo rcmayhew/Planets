@@ -1,7 +1,7 @@
 #pragma once
 #include <utility>
 #include <string>
-#include <cmath>
+#include <math.h>
 
 typedef std::pair<double, double> Group;
 
