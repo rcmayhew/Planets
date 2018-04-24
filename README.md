@@ -3,7 +3,7 @@ An attempt to create a ficitonal solar system that responds to time inputs.
 There are three different planetary rotations, four circular, two elliptical, and two lemniscate rotations,
 specificlly the lemniscate of Bernoulli. Each planet is first written in polar coordinates, and then converted to parametric polar.
 Planets are named from right to left.
-| Name		| Orbit Type |
+| Name          | Orbit Type |
 |:-------------:|:----------:|
 | Numeria       | Ellipse    |
 | Safitorium    | Ellipse    |
